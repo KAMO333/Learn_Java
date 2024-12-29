@@ -1,8 +1,9 @@
+package samples;
 //CLASS act as blueprint for creating objects. They have attributes(description), methods(actions).
 //(i) We use these for objects nature and behaviour.
 //(ii) We can use these in the main class, which act as the core of our program, where the whole program is running.
 
-//public class Vehicle {
+//public class samples.Vehicle {
 //    int maxSpeed;
 //    int wheels;
 //    String color;
@@ -15,8 +16,8 @@
 //
 //class CoreClass {
 //    public static void main(String[ ] args) {
-//        Vehicle v1 = new Vehicle();
-//        Vehicle v2 = new Vehicle();
+//        samples.Vehicle v1 = new samples.Vehicle();
+//        samples.Vehicle v2 = new samples.Vehicle();
 //        v1.color = "red";
 //        v2.horn();
 //    }
@@ -26,17 +27,17 @@
 //(i) same name as class
 //(ii) no return statement
 
-//public class Vehicle {
+//public class samples.Vehicle {
 //    private String color;
-//    Vehicle() {
+//    samples.Vehicle() {
 //        color = "Red";
 //    }
 //}
 
 //(iii) they can take parameters to initialize them.
-//public class Vehicle {
+//public class samples.Vehicle {
 //    private String color;
-//    Vehicle(String c) {
+//    samples.Vehicle(String c) {
 //        color = c;
 //    }
 //}

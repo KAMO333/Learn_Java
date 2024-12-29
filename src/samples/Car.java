@@ -1,4 +1,4 @@
-//Access Modifiers.
+package samples;//Access Modifiers.
 //These set variable to be accessable by other classes in and out our program.
 //public == accessable by other classess.
 // default == available to any class with same package

@@ -1,4 +1,4 @@
-//there are a number of data type is Java = int, float, double, short, long, string, char.
+package samples;//there are a number of data type is Java = int, float, double, short, long, string, char.
 //Java is passed by value meaning, it operates on the variables values not the variable themselves.
 
 //public class Pass {
