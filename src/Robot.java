@@ -22,3 +22,43 @@ class RunRobot{
         Robot r = new Robot(2);
     }
 }
+
+//COMPARE OBJECTS:
+
+//object variables store references, so when comparing two objects, we actually compare
+//their memory location not the object value.
+
+//EQUALS():
+
+//in order to check for this correctly we must use the equals() methods which requires the
+//hashCode() method.
+
+//ENUMS:
+
+//so basically they store variables of the same type in one place so we can use it easyly.
+class Prog {
+    enum Rank {
+        SOLDIER,
+        SERGEANT,
+        CAPTAIN
+    }
+
+    public static void main(String[] args) {
+        Rank a = Rank.CAPTAIN;
+
+        switch (a) {
+            case SOLDIER:
+                System.out.println("am a soldier");
+                break;
+            case SERGEANT:
+                System.out.println("am a sergent");
+                break;
+            case CAPTAIN:
+                System.out.println("am the captain");
+        }
+
+    }
+
+}
+
+
