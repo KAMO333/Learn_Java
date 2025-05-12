@@ -1,4 +1,4 @@
-//Java offers a package for sorting collections.
+package corejava;//Java offers a package for sorting collections.
 //which has other useful methods (max, min, shuffle, reverse)
 
 //import java.util.ArrayList;

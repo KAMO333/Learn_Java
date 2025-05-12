@@ -1,4 +1,4 @@
-//Hashmap:
+package corejava;//Hashmap:
 //is basically you dictionary in Python.
 //it has key value pairs objects.
 //has methods that helps us manipulate data in it, put(), get(), remove()
@@ -23,8 +23,8 @@ import java.util.HashSet;
 class Set {
     public static void main(String[] args) {
         HashSet<String> set = new HashSet<String>();
-        set.add("A");
-        set.add("B");
+        set.add("corejava.A");
+        set.add("corejava.B");
         set.add("C");
 
         System.out.println(set);
@@ -37,6 +37,6 @@ class Set {
 
 //What is hashing?
 //
-//A hash table stores information through a mechanism called hashing, in which a key's informational content is used to determine a unique value called a hash code.
+//corejava.A hash table stores information through a mechanism called hashing, in which a key's informational content is used to determine a unique value called a hash code.
 //
 //So, basically, each element in the HashSet is associated with its unique hash code.

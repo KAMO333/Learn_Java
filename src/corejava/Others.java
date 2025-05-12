@@ -1,4 +1,4 @@
-//TYPE CASTING:
+package corejava;//TYPE CASTING:
 //is converting one data type to another.( for example( int to float))
 
 public class Others {

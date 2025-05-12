@@ -1,11 +1,11 @@
-//arraylist a arrays that stores objects.
+package corejava;//arraylist a arrays that stores objects.
 //one must specify what type should the objects be.
 //they have methods that helps us use them like (contains(), get(), size(), clear()).
 //can specify the initial capacity.
 
 //import java.util.ArrayList;
 
-//class OtherClass {
+//class corejava.OtherClass {
 //    public static void main(String[] args) {
 //        ArrayList<String> colors = new ArrayList<String>();
 //        colors.add("Red");

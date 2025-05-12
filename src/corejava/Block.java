@@ -1,4 +1,4 @@
-//Exception:
+package corejava;//Exception:
 //is coding machanism that is practiced to handle all kinds of errors that could occur
 //during the program runtime, it affords us catching all sort of unexpected errors and ensures our program
 //never crashes.
@@ -12,14 +12,14 @@
 //            int a[ ] = new int[2];
 //            System.out.println(a[4]);
 //        } catch (Exception e) {
-//            System.out.println("an error occurred");
+//            System.out.println("an corejava.error occurred");
 //        }
 //    }
 //}
 
-//throw keyword allows us to know what type of error we have encountered, because there a lots of kinds
+//throw keyword allows us to know what type of corejava.error we have encountered, because there a lots of kinds
 //of errors to handle or run into.
-//it also allows us to customize the error to show and handle
+//it also allows us to customize the corejava.error to show and handle
 class error {
     static int div(int a, int b) throws ArithmeticException {
         if (b == 0) {

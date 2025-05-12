@@ -1,4 +1,4 @@
-//POLYMORPHISM
+package corejava;//POLYMORPHISM
 //is when different subclasses inherit from the same superclass but use the superclasses
 //properties in their own different ways.
 
@@ -7,7 +7,7 @@
 //        System.out.println("Grr...");
 //    }
 //}
-//class Cat extends Animal {
+//class corejava.Cat extends Animal {
 //    public void makeSound() {
 //        System.out.println("Meow");
 //    }
@@ -21,7 +21,7 @@
 //class MainSounds {
 //    public static void main(String[ ] args) {
 //        Animal a = new Dog();
-//        Animal b = new Cat();
+//        Animal b = new corejava.Cat();
 //
 //        a.makeSound();
 //        b.makeSound();

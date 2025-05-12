@@ -1,4 +1,4 @@
-//Anonymous Classes helps me extend classes on the fly
+package corejava;//Anonymous Classes helps me extend classes on the fly
 
 class Machine {
     public void start() {

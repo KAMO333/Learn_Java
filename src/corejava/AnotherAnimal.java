@@ -1,4 +1,4 @@
-//ABSTRACTION
+package corejava;//ABSTRACTION
 
 //abstract class Animals {
 //    int legs = 0;

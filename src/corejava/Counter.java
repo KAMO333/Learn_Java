@@ -1,4 +1,4 @@
-//Static variables or method belong to the class, and are shared by all created objects within the class.
+package corejava;//Static variables or method belong to the class, and are shared by all created objects within the class.
 //Non-static belong to instances individually.
 
 //static variables:

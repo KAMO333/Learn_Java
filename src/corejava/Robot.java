@@ -1,5 +1,5 @@
-//Inner class:
-//A class can have inner classess which are set to private,
+package corejava;//Inner class:
+//corejava.A class can have inner classess which are set to private,
 // they can be accessable within the class but never outside it.
 
 class Robot {

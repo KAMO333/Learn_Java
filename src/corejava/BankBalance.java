@@ -1,4 +1,4 @@
-//ENCAPSULATION:
+package corejava;//ENCAPSULATION:
 
 //Encapsulation is hiding certain info(variables & methods) from being accessed by anyone outside the class. Only those who are authenticated can access it.
 //for example = using public methods like getters and setters or others.
