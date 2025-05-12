@@ -9,5 +9,8 @@
         <module name="pom.xml" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="Learn Java" target="1.5" />
+    </bytecodeTargetLevel>
   </component>
 </project>

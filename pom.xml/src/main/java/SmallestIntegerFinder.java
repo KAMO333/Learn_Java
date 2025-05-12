@@ -1,5 +1,9 @@
+import java.util.Arrays;
+
 public class SmallestIntegerFinder {
     public static int findSmallestInt(int[] args) {
-        return 0;
+        Arrays.sort(args);
+        return args[0];
+
     }
 }
