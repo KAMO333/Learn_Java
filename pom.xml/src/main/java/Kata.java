@@ -4,6 +4,16 @@ public class Kata {
     };
 
     public static String noSpace(final String x) {
-        return "";
+
+        StringBuilder results = new StringBuilder();
+
+        for(int i = 0; i < x.length(); i++) {
+            if(x.charAt(i) == ' ') {
+            } else {
+                results.append(x.charAt(i));
+            }
+        }
+
+        return results.toString();
     }
 }
