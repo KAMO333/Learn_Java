@@ -23,4 +23,8 @@ public class OppositesAttractTest {
         assertEquals(true, OppositesAttract.isLove(0, 1));
     }
 
+    @Test
+    public void test() {
+        assertEquals(false, OppositesAttract.isLove(113, 215));
+    }
 }
