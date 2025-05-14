@@ -47,6 +47,28 @@ public class Kata {
         }
         return results;
     }
+
+    public static int[] countPositivesSumNegatives(int[] input) {
+
+        if(input == null || input.length == 0) {
+            return input;
+        }
+
+        int posCount = 0;
+        int negSum = 0;
+
+        for(int i = 0; i < input.length; i++) {
+            if(input[i] > 0) {
+                posCount += 1;
+            } else {
+                negSum += input[i];
+            }
+        }
+
+        int[] results = {posCount, negSum};
+
+        return results;
+    }
 }
 
 class Solution {
