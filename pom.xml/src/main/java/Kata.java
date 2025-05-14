@@ -44,7 +44,6 @@ public class Kata {
 
         for(int i = 0; i < array.length; i++) {
             results[i] = -array[i];
-
         }
         return results;
     }
@@ -57,7 +56,6 @@ class Solution {
         for(int i = 0; i < repeat; i++) {
             res += string;
         }
-
         return res;
     }
 }
