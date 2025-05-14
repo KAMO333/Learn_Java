@@ -9,4 +9,9 @@ public class SolutionTest {
         assertEquals("jfBmgklf8hg88lbe8", Kata.noSpace("jfBm  gk lf8hg  88lbe8 "));
         assertEquals("8jaam", Kata.noSpace("8j aam"));
     }
+
+    @Test
+    public void sampleTests() {
+        assertEquals("dlrow", Kata.solution("world"));
+    }
 }

@@ -25,4 +25,14 @@ public class Kata {
         }
         return "";
     }
+
+    public static String solution(String str) {
+
+        StringBuilder results = new StringBuilder();
+
+        for(int i = str.length() - 1; i >= 0; i-- ) {
+            results.append(str.charAt(i));
+        }
+        return results.toString();
+    }
 }
