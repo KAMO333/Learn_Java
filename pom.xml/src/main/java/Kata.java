@@ -69,6 +69,7 @@ public class Kata {
 
         return results;
     }
+
 }
 
 class Solution {
@@ -79,5 +80,10 @@ class Solution {
             res += string;
         }
         return res;
+    }
+
+    public static String[] stringToArray(String s) {
+        return s.split(" ");
+
     }
 }

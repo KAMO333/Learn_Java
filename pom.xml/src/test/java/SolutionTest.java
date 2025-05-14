@@ -1,4 +1,6 @@
 import org.junit.Test;
+
+import static org.junit.Assert.assertArrayEquals;
 import static org.junit.Assert.assertEquals;
 
 public class SolutionTest {
@@ -35,5 +37,11 @@ public class SolutionTest {
     }
     @Test public void test5Hello() {
         assertEquals("HelloHelloHelloHelloHello", Solution.repeatStr(5, "Hello"));
+    }
+
+    @Test
+    public void basicTests() {
+        assertArrayEquals(new String[]{"Robin", "Singh"}, Solution.stringToArray("Robin Singh"));
+        assertArrayEquals(new String[]{"I", "love", "arrays", "they", "are", "my", "favorite"}, Solution.stringToArray("I love arrays they are my favorite"));
     }
 }
