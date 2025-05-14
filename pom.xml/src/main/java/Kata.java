@@ -78,6 +78,10 @@ public class Kata {
         }
     }
 
+    public static double findAverage(int[] array) {
+        return 0.0;
+    }
+
 
 
 }

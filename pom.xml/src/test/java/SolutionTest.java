@@ -54,4 +54,5 @@ public class SolutionTest {
         assertArrayEquals(new String[]{"I", "love", "arrays", "they", "are", "my", "favorite"}, Solution.stringToArray("I love arrays they are my favorite"));
     }
 
+
 }
