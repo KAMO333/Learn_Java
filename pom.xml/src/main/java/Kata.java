@@ -35,6 +35,11 @@ public class Kata {
         }
         return results.toString();
     }
+
+    public static int[] invert(int[] array) {
+
+        return array;
+    }
 }
 
 class Solution {
