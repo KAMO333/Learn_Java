@@ -14,4 +14,26 @@ public class SolutionTest {
     public void sampleTests() {
         assertEquals("dlrow", Kata.solution("world"));
     }
+
+    @Test public void test4a() {
+        assertEquals("aaaa", Solution.repeatStr(4, "a"));
+    }
+    @Test public void test3Hello() {
+        assertEquals("HelloHelloHello", Solution.repeatStr(3, "Hello"));
+    }
+    @Test public void test5empty() {
+        assertEquals("", Solution.repeatStr(5, ""));
+    }
+    @Test public void test0kata() {
+        assertEquals("", Solution.repeatStr(0, "kata"));
+    }
+    @Test public void test0empty() {
+        assertEquals("", Solution.repeatStr(0, ""));
+    }
+    @Test public void test6I() {
+        assertEquals("IIIIII", Solution.repeatStr(6, "I"));
+    }
+    @Test public void test5Hello() {
+        assertEquals("HelloHelloHelloHelloHello", Solution.repeatStr(5, "Hello"));
+    }
 }
