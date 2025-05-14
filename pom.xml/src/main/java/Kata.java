@@ -1,3 +1,5 @@
+import java.util.ArrayList;
+
 public class Kata {
     public static String numberToString(int num) {
         return String.valueOf(num);
@@ -38,7 +40,13 @@ public class Kata {
 
     public static int[] invert(int[] array) {
 
-        return array;
+        int[] results = new int[array.length];
+
+        for(int i = 0; i < array.length; i++) {
+            results[i] = -array[i];
+
+        }
+        return results;
     }
 }
 
