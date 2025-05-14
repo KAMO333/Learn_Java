@@ -39,6 +39,6 @@ public class Kata {
 
 class Solution {
     public static String repeatStr(final int repeat, final String string) {
-        return "";
+        return string.repeat(repeat);
     }
 }
