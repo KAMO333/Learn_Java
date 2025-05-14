@@ -13,4 +13,9 @@
       <module name="Learn Java" target="1.5" />
     </bytecodeTargetLevel>
   </component>
+  <component name="JavacSettings">
+    <option name="ADDITIONAL_OPTIONS_OVERRIDE">
+      <module name="pom.xml" options="--add-exports java.base/sun.nio.cs=ALL-UNNAMED" />
+    </option>
+  </component>
 </project>
