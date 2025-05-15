@@ -87,9 +87,6 @@ public class Kata {
 
         return (double) sum / array.length;
     }
-
-
-
 }
 
 class Solution {
@@ -107,3 +104,5 @@ class Solution {
 
     }
 }
+
+
