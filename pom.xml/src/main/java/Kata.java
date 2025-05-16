@@ -90,6 +90,13 @@ public class Kata {
 
     public static int[] countBy(int x, int n){
 
+        int[] result = new int[n];
+
+        for(int j = 0; j < n; j++) {
+            result[j] = (j + 1) * x;
+        }
+
+        return result;
     }
 }
 
