@@ -23,7 +23,10 @@ public class Welcome {
             put("welsh", "Croeso");
         }};
 
-
-
+        if(welcomes.containsKey(language)) {
+            return welcomes.get(language);
+        } else {
+            return "Welcome";
+        }
     }
 }
