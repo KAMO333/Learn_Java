@@ -3,25 +3,24 @@ import java.util.Map;
 
 public class Welcome {
     public static String greet(String language){
-        Map<String, String> welcomes = new HashMap<String, String>() {{
-            put("english", "Welcome");
-            put("czech", "Vitejte");
-            put("danish", "Velkomst");
-            put("dutch", "Welkom");
-            put("estonian", "Tere tulemast");
-            put("finnish", "Tervetuloa");
-            put("flemish", "Welgekomen");
-            put("french", "Bienvenue");
-            put("german", "Willkommen");
-            put("irish", "Failte");
-            put("italian", "Benvenuto");
-            put("latvian", "Gaidits");
-            put("lithuanian", "Laukiamas");
-            put("polish", "Witamy");
-            put("spanish", "Bienvenido");
-            put("swedish", "Valkommen");
-            put("welsh", "Croeso");
-        }};
+        Map<String, String> welcomes = new HashMap<String, String>();
+            welcomes.put("english", "Welcome");
+            welcomes.put("czech", "Vitejte");
+            welcomes.put("danish", "Velkomst");
+            welcomes.put("dutch", "Welkom");
+            welcomes.put("estonian", "Tere tulemast");
+            welcomes.put("finnish", "Tervetuloa");
+            welcomes.put("flemish", "Welgekomen");
+            welcomes.put("french", "Bienvenue");
+            welcomes.put("german", "Willkommen");
+            welcomes.put("irish", "Failte");
+            welcomes.put("italian", "Benvenuto");
+            welcomes.put("latvian", "Gaidits");
+            welcomes.put("lithuanian", "Laukiamas");
+            welcomes.put("polish", "Witamy");
+            welcomes.put("spanish", "Bienvenido");
+            welcomes.put("swedish", "Valkommen");
+            welcomes.put("welsh", "Croeso");
 
         if(welcomes.containsKey(language)) {
             return welcomes.get(language);
