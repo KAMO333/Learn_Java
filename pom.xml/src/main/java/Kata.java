@@ -87,6 +87,10 @@ public class Kata {
 
         return (double) sum / array.length;
     }
+
+    public static int[] countBy(int x, int n){
+
+    }
 }
 
 class Solution {
