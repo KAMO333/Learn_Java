@@ -26,7 +26,7 @@ public class Welcome {
         if(welcomes.containsKey(language)) {
             return welcomes.get(language);
         } else {
-            return "Welcome";
+            return welcomes.get("english");
         }
     }
 }
