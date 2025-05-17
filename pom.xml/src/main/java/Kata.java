@@ -98,6 +98,7 @@ public class Kata {
 
         return result;
     }
+
 }
 
 class Solution {

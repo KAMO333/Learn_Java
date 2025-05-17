@@ -10,7 +10,6 @@ public class StringUtils {
                 res += Character.toUpperCase(string.charAt(i));
             }
         }
-
         return res;
     }
 }
