@@ -2,10 +2,24 @@ import java.util.Arrays;
 
 public class kata {
     public static int min(int[] list) {
-        return Arrays.stream(list).min().getAsInt();
+        int mini = list[0];
+
+        for(int i : list) {
+            if(i < mini) {
+                mini = i;
+            }
+        }
+        return mini;
     }
 
     public static int max(int[] list) {
-        return Arrays.stream(list).max().getAsInt();
+        int maxi = list[0];
+
+        for(int i : list) {
+            if(i > maxi) {
+                maxi = i;
+            }
+        }
+        return maxi;
     }
 }
