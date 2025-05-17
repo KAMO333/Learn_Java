@@ -1,9 +1,11 @@
+import java.util.Arrays;
+
 public class kata {
-    public int min(int[] list) {
-        return 0;
+    public static int min(int[] list) {
+        return Arrays.stream(list).min().getAsInt();
     }
 
-    public int max(int[] list) {
-        return 0;
+    public static int max(int[] list) {
+        return Arrays.stream(list).max().getAsInt();
     }
 }
