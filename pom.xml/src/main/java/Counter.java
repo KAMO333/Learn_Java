@@ -1,5 +1,14 @@
 public class Counter {
     public static int countSheeps(Boolean[] arrayOfSheeps) {
-        return 0;
+        int count = 0;
+
+        for(int i = 0; i < arrayOfSheeps.length; i += 1) {
+            if(arrayOfSheeps[i] == null) {
+                continue;
+            } else if (arrayOfSheeps[i] == true) {
+                count++;
+            }
+        }
+        return count;
     }
 }
