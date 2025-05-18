@@ -99,6 +99,16 @@ public class Kata {
         return result;
     }
 
+    public static int squareSum(int[] n) {
+        int results = 0;
+
+        for(int value: n) {
+            results += value * value;
+        }
+
+        return results;
+    }
+
 }
 
 class Solution {
