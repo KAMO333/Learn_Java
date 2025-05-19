@@ -10,5 +10,20 @@ public class Checking {
             return false;
         }
     }
+
+    public static int smallest(int[] arr) {
+        int first = arr[0];
+
+        int res = 0;
+
+        for(int i = 0; i < arr.length; i++) {
+            if(arr[i] <= first) {
+                res = arr[i];
+            }
+        }
+
+        return res;
+
+    }
 }
 

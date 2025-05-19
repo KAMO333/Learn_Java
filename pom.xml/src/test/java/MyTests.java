@@ -21,4 +21,10 @@ public class MyTests {
         assertFalse(Checking.direction(("west")));
     }
 
+    @Test
+    public void testArray() {
+        assertEquals(1, Checking.smallest(new int[] {1,2,3,4,5,6,7,8,9}));
+        assertEquals(2, Checking.smallest(new int[] {2,3,4,5,6,7,8,9}));
+    }
+
 }
