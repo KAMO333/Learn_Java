@@ -87,6 +87,28 @@ public class Kata {
 
         return (double) sum / array.length;
     }
+
+    public static int[] countBy(int x, int n){
+
+        int[] result = new int[n];
+
+        for(int j = 0; j < n; j++) {
+            result[j] = (j + 1) * x;
+        }
+
+        return result;
+    }
+
+    public static int squareSum(int[] n) {
+        int results = 0;
+
+        for(int value: n) {
+            results += value * value;
+        }
+
+        return results;
+    }
+
 }
 
 class Solution {
