@@ -20,4 +20,5 @@ public class MyTests {
         assertFalse(Checking.direction(("north")));
         assertFalse(Checking.direction(("west")));
     }
+
 }
