@@ -109,6 +109,10 @@ public class Kata {
         return results;
     }
 
+    public static String alphabetWar(String fight){
+        return "Let's fight again!";
+    }
+
 }
 
 class Solution {
