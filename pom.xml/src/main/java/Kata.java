@@ -159,6 +159,20 @@ public class Kata {
         }
     }
 
+    public static String broken(final String x) {
+       Map<String, String> binaryCode = new HashMap<>();
+       binaryCode.put("0", "1");
+       binaryCode.put("1", "0");
+
+       String results = "";
+
+       for(int i = 0; i < x.length(); i += 1) {
+           results += binaryCode.get(String.valueOf(x.charAt(i)));
+       }
+
+       return results;
+    }
+
 }
 
 class Solution {
