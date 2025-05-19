@@ -1,4 +1,6 @@
 import java.util.ArrayList;
+import java.util.HashMap;
+import java.util.Map;
 
 public class Kata {
     public static String numberToString(int num) {
@@ -110,7 +112,51 @@ public class Kata {
     }
 
     public static String alphabetWar(String fight){
-        return "Let's fight again!";
+        Map<Character, Integer> powerLetters = new HashMap<>(); {
+            powerLetters.put('w', 4);
+            powerLetters.put('p', 3);
+            powerLetters.put('b', 2);
+            powerLetters.put('s', 1);
+            powerLetters.put('m', 4);
+            powerLetters.put('q', 3);
+            powerLetters.put('d', 2);
+            powerLetters.put('z', 1);
+        }
+
+        int leftSide = 0;
+        int rightSide = 0;
+
+        for(int i = 0; i < fight.length(); i++) {
+            if(powerLetters.containsKey(fight.charAt(i))) {
+                if(fight.charAt(i) == 'w') {
+                    leftSide += powerLetters.get('w');
+                } else if (fight.charAt(i) == 'p') {
+                    leftSide += powerLetters.get('p');
+                } else if (fight.charAt(i) == 'b') {
+                    leftSide += powerLetters.get('b');
+                } else if (fight.charAt(i) == 's') {
+                    leftSide += powerLetters.get('s');
+                } else if (fight.charAt(i) == 'm') {
+                    rightSide += powerLetters.get('m');
+                } else if (fight.charAt(i) == 'q') {
+                    rightSide += powerLetters.get('q');
+                } else if (fight.charAt(i) == 'd') {
+                    rightSide += powerLetters.get('d');
+                } else if (fight.charAt(i) == 'z') {
+                    rightSide += powerLetters.get('z');
+                } else {
+                    continue;
+                }
+            }
+        }
+
+        if (leftSide > rightSide) {
+            return "Left side wins!";
+        } else if (rightSide > leftSide) {
+            return "Right side wins!";
+        } else {
+            return "Let's fight again!";
+        }
     }
 
 }
