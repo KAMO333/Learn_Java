@@ -27,4 +27,9 @@ public class MyTests {
         assertEquals(2, Checking.smallest(new int[] {2,3,4,5,6,7,8,9}));
     }
 
+    @Test
+    public void testMessage() {
+
+    }
+
 }
