@@ -29,7 +29,14 @@ public class MyTests {
 
     @Test
     public void testMessage() {
+       Object[] list = {"msg", 2, true, false, null, 'd', "xyz"};
+       assertEquals("string is at 0", Checking.message(list));
+    }
 
+    @Test
+    public void testNotFound() {
+        Object[] list = {2, true, false, null, 'd', "xyz"};
+        assertEquals("string not found", Checking.message(list));
     }
 
 }

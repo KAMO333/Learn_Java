@@ -19,6 +19,18 @@ public class Checking {
         return res;
     }
 
+    public static String message(Object[] msg) {
+
+        for(int i = 0; i < msg.length; i++) {
+            if (msg[i].equals("msg")) {
+                return "string is at " + i;
+            } else{
+                return "string not found";
+            }
+        }
+        return "";
+    }
+
 
 }
 
