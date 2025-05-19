@@ -1,7 +1,6 @@
 import org.junit.Test;
 
-import static org.junit.Assert.assertEquals;
-import static org.junit.Assert.assertTrue;
+import static org.junit.Assert.*;
 
 public class MyTests {
     @Test
@@ -14,5 +13,11 @@ public class MyTests {
     public void testBoolean() {
         assertTrue(Checking.direction("left"));
         assertTrue(Checking.direction("right"));
+    }
+    
+    @Test
+    public void testFalse() {
+        assertFalse(Checking.direction(("north")));
+        assertFalse(Checking.direction(("west")));
     }
 }
