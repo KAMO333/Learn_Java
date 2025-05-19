@@ -13,6 +13,8 @@ public class MyTests {
     public void testBoolean() {
         assertTrue(Checking.direction("left"));
         assertTrue(Checking.direction("right"));
+        assertFalse(Checking.direction(("north")));
+        assertFalse(Checking.direction(("west")));
     }
     
     @Test
