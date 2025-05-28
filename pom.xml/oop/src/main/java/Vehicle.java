@@ -7,4 +7,12 @@ public class Vehicle {
     public void horn() {
         System.out.println("Beep!");
     }
+
+    public String getColor() {
+        return color;
+    }
+
+    public void setColor(String colour) {
+        this.color = colour;
+    }
 }
