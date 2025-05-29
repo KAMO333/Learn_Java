@@ -4,7 +4,7 @@ public class MyClass {
         Vehicle car = new Vehicle();
         dog.bark();
         car.horn();
-        car.setColor("red");
+//        car.setColor("red");
         System.out.println(car.getColor());
     }
 }

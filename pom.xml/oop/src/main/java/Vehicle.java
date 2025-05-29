@@ -4,6 +4,10 @@ public class Vehicle {
     private String color;
     private double fuelCapacity;
 
+    Vehicle() {
+        color = "blue";
+    }
+
     public void horn() {
         System.out.println("Beep!");
     }
