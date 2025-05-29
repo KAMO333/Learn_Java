@@ -4,8 +4,12 @@ public class Vehicle {
     private String color;
     private double fuelCapacity;
 
+    Vehicle() {
+        this.setColor("Blue");
+    }
+
     Vehicle(String color){
-        this.color = color;
+        this.setColor(color);
     }
 
     public void horn() {
