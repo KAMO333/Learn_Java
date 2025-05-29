@@ -1,3 +1,5 @@
+package basics;
+
 public class Vehicle {
     private int maxSpeed;
     private int wheels;
@@ -8,7 +10,7 @@ public class Vehicle {
         this.setColor("Blue");
     }
 
-    Vehicle(String color){
+    public Vehicle(String color){
         this.setColor(color);
     }
 
