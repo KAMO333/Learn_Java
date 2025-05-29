@@ -12,7 +12,7 @@ public class Vehicle {
         this.setColor(color);
     }
 
-    public void horn() {
+    public static void horn() {
         System.out.println("Beep!");
     }
 
