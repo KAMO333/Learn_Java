@@ -4,8 +4,8 @@ public class Vehicle {
     private String color;
     private double fuelCapacity;
 
-    Vehicle() {
-        color = "blue";
+    Vehicle(String color){
+        this.color = color;
     }
 
     public void horn() {
@@ -19,4 +19,10 @@ public class Vehicle {
     public void setColor(String colour) {
         this.color = colour;
     }
+
+    @Override
+    public String toString() {
+        return color;
+    }
+
 }
