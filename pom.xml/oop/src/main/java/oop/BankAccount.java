@@ -1,5 +1,7 @@
 package oop;
 
+//Encapsulation
+
 public class BankAccount {
     private double balance = 0;
 
