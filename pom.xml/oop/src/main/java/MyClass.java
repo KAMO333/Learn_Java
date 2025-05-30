@@ -1,5 +1,6 @@
 import basics.*;
 import oop.BankAccount;
+import oop.Dog;
 
 public class MyClass {
     public static void main(String[] args) {
@@ -18,6 +19,11 @@ public class MyClass {
         money.withdraw(25);
 
         System.out.println(money.getBalance());
+
+        Dog snoopy = new Dog();
+        snoopy.eat();
+
+        System.out.println(snoopy.getLegs());
 
     }
 
