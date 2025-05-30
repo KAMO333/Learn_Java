@@ -15,6 +15,7 @@ public class MyClass {
 
         BankAccount money = new BankAccount();
         money.deposit(55);
+        money.withdraw(25);
 
         System.out.println(money.getBalance());
 
