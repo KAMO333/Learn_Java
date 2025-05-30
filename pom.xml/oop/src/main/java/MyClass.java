@@ -1,6 +1,8 @@
 import basics.*;
 import oop.*;
 
+import static oop.Program.maximum;
+
 public class MyClass {
     public static void main(String[] args) {
         Animal dog = new Animal();
@@ -30,6 +32,9 @@ public class MyClass {
 
         cow.speak();
         cat.speak();
+
+        System.out.println("Max is: " + maximum(5, 10));
+        System.out.println("Max is: " + maximum(5.5, 10.5));
 
     }
 
