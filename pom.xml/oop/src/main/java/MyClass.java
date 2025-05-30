@@ -25,8 +25,8 @@ public class MyClass {
         System.out.println("PolyAnimal has " + snoopy.getLegs() + " legs.");
         System.out.println(snoopy.showEyes());
 
-        PolyAnimal cow = new Cow();
-        PolyAnimal cat = new Cat();
+        Cow cow = new Cow();
+        Cat cat = new Cat();
 
         cow.speak();
         cat.speak();
