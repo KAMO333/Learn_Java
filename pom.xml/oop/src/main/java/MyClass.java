@@ -23,7 +23,9 @@ public class MyClass {
         Dog snoopy = new Dog();
         snoopy.eat();
 
-        System.out.println(snoopy.getLegs());
+
+        System.out.println("Animal has " + snoopy.getLegs() + " legs.");
+        System.out.println(snoopy.showEyes());
 
     }
 
