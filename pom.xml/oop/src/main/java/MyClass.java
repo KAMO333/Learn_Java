@@ -1,6 +1,5 @@
 import basics.*;
-import oop.BankAccount;
-import oop.Dog;
+import oop.*;
 
 public class MyClass {
     public static void main(String[] args) {
@@ -23,9 +22,14 @@ public class MyClass {
         Dog snoopy = new Dog();
         snoopy.eat();
 
-
-        System.out.println("Animal has " + snoopy.getLegs() + " legs.");
+        System.out.println("PolyAnimal has " + snoopy.getLegs() + " legs.");
         System.out.println(snoopy.showEyes());
+
+        PolyAnimal cow = new Cow();
+        PolyAnimal cat = new Cat();
+
+        cow.speak();
+        cat.speak();
 
     }
 
