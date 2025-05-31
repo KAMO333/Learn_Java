@@ -14,6 +14,7 @@ public class MyProgram {
                System.out.println("we goooooing!");
            }
        };
-        mean.start();
+       Machine mean2 = new Machine();
+        mean2.start();
     }
 }
