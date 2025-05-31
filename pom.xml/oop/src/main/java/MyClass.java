@@ -32,6 +32,7 @@ public class MyClass {
 
         cow.speak();
         cat.speak();
+        cow.eat();
         cat.eat();
 
         System.out.println("Max is: " + maximum(5, 10));
