@@ -7,5 +7,13 @@ public class MyProgram {
         String n = String.valueOf(number);
 
         System.out.println(number);
+
+       Machine mean = new Machine() {
+           @Override
+           public void start() {
+               System.out.println("we goooooing!");
+           }
+       };
+        mean.start();
     }
 }
