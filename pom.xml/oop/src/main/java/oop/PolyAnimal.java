@@ -1,7 +1,5 @@
 package oop;
 
-public class PolyAnimal {
-    public void speak() {
-        System.out.println("PolyAnimal is speaking...");
-    }
+abstract class PolyAnimal {
+    abstract void speak();
 }
