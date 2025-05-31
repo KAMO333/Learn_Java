@@ -27,13 +27,16 @@ public class MyClass {
         System.out.println("PolyAnimal has " + snoopy.getLegs() + " legs.");
         System.out.println(snoopy.showEyes());
 
-        Cow cow = new Cow();
-        Cat cat = new Cat();
+        Animal cow = new Cow();
+        Animal cat = new Cat();
 
-        cow.speak();
-        cat.speak();
-        cow.eat();
-        cat.eat();
+        ((Cow)cow).eat();
+        ((Cat)cat).eat();
+
+//        cow.speak();
+//        cat.speak();
+//        cow.eat();
+//        cat.eat();
 
         System.out.println("Max is: " + maximum(5, 10));
         System.out.println("Max is: " + maximum(5.5, 10.5));

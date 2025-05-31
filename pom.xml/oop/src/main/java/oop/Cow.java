@@ -1,6 +1,8 @@
 package oop;
 
-public class Cow implements PolyAnimal {
+import basics.Animal;
+
+public class Cow extends Animal implements PolyAnimal {
 
     public void speak() {
         System.out.println("cow is speaking...");
