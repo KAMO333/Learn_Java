@@ -8,5 +8,12 @@ public class MyOtherProgram {
         Zoo donkey = new Zoo("mike123");
 
         System.out.println(monkey.equals(donkey));
+
+        try{
+            int[] a = new int[2];
+            System.out.println(a[5]);
+        } catch (Exception e) {
+            System.out.println("an error occurred");
+        }
     }
 }
