@@ -1,9 +1,10 @@
 package collections;
 
 import java.util.ArrayList;
+import java.util.LinkedList;
 
 public class Arrays {
-    static ArrayList colors = new ArrayList();
+    static LinkedList<String> colors = new LinkedList<String>();
 
     public static void main(String[] args) {
         colors.add("Blue");
