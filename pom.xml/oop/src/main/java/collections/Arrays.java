@@ -3,7 +3,16 @@ package collections;
 import java.util.ArrayList;
 
 public class Arrays {
-    ArrayList color = new ArrayList();
+    static ArrayList colors = new ArrayList();
 
-    ArrayList<String> colorsAgain = new ArrayList<String>(10);
+    public static void main(String[] args) {
+        colors.add("Blue");
+        colors.add("White");
+        colors.add("Red");
+        colors.add("Black");
+        colors.remove("Blue");
+
+        System.out.println(colors);
+
+    }
 }
