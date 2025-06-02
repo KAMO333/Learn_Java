@@ -10,6 +10,8 @@ public class Dict {
         persons.put("kamo", 32);
         persons.put("d", 28);
         persons.remove("d");
+        System.out.println(persons.containsKey("kamo"));
+        System.out.println(persons.containsValue("kamo"));
 
 
         System.out.println(persons.get("moroka"));
