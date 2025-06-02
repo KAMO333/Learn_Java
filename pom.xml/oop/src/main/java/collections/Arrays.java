@@ -12,6 +12,12 @@ public class Arrays {
         colors.add("Black");
         colors.remove("Blue");
 
+        System.out.println(colors.contains("White"));
+        System.out.println(colors.size());
+        System.out.println(colors.clone());
+        System.out.println(colors.get(2));
+        colors.clear();
+
         System.out.println(colors);
 
     }
