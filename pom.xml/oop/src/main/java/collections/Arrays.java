@@ -17,7 +17,11 @@ public class Arrays {
         System.out.println(colors.size());
         System.out.println(colors.clone());
         System.out.println(colors.get(2));
-        colors.clear();
+//        colors.clear();
+
+        for(String col: colors) {
+            System.out.println(col);
+        }
 
         System.out.println(colors);
 
