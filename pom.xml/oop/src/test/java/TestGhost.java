@@ -1,13 +1,18 @@
 import org.junit.Test;
 import practice.Ghost;
 
-import static org.junit.Assert.assertEquals;
+import static org.junit.Assert.assertTrue;
 
 public class TestGhost {
     @Test
     public void testObjectColor() {
         Ghost ghost = new Ghost();
-        assertEquals("red", "red");
-        assertEquals("yellow", "yellow");
+        String color = ghost.getColor();
+        assertTrue(
+                color.equals("white") ||
+                        color.equals("red") ||
+                        color.equals("purple") ||
+                        color.equals("yellow")
+        );
     }
 }
