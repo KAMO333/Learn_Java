@@ -2,6 +2,7 @@ package collections;
 
 import java.util.ArrayList;
 import java.util.Collections;
+import java.util.List;
 
 public class Sorting {
 
@@ -18,7 +19,7 @@ public class Sorting {
 //    }
 
     public static void main(String[] args) {
-        ArrayList<Integer> numbers = new ArrayList<Integer>();
+        List<Integer> numbers = new ArrayList<>();
 
         numbers.add(43);
         numbers.add(32);
