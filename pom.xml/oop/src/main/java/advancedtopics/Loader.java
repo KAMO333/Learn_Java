@@ -5,4 +5,3 @@ public class Loader extends Thread {
         System.out.println("Hello");
     }
 }
-
