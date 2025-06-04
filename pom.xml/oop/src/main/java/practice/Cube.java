@@ -8,7 +8,7 @@ public class Cube{
     }
 
     public Cube(int number) {
-        convertNegativeToPositive(number);
+        setSide(number);
     }
 
     public int getSide() {
@@ -16,10 +16,6 @@ public class Cube{
     }
 
     public void setSide(int number) {
-        convertNegativeToPositive(number);
-    }
-
-    public void convertNegativeToPositive(int number) {
         if(number < 0) {
             this.sides = number * -1;
         } else {
