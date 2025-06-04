@@ -3,11 +3,11 @@ package practice;
 public class Cube{
     private int sides = 0;
 
-    public int getSides() {
+    public int getSide() {
         return sides;
     }
 
-    public void setSides(int number) {
+    public void setSide(int number) {
         this.sides = number;
     }
 }
