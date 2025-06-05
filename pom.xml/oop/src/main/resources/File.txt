@@ -1,1 +1,3 @@
-I'm the sh!t, I now have an understanding of Java and OOP principles! Good work K!
+I'm the sh!t, I now have an understanding of Java and OOP principles! Good work K!\
+
+InputStream file = FileClass.class.getClassLoader().getResourceAsStream("File.txt");
