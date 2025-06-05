@@ -1,0 +1,60 @@
+
+Java OOP Concepts Summary
+=========================
+
+1. **Static**
+   - Belongs to the class, not the instance.
+   - Shared across all instances.
+   - Static methods/variables can be accessed using the class name.
+
+2. **Encapsulation**
+   - Hiding class internals (variables/methods) using `private`.
+   - Exposed through `public` getters and setters.
+   - Can also be applied to methods, not just variables.
+
+3. **Inheritance**
+   - `extends` keyword lets a subclass inherit a superclass's members (non-private).
+   - Superclass: Parent class.
+   - Subclass: Child class.
+   - Use `super` to call superclass constructor/methods/variables.
+
+4. **Polymorphism**
+   - Allows a superclass reference to refer to subclass objects.
+   - Two types:
+     a. Overriding: Subclass modifies superclass method.
+     b. Overloading: Same method name, different parameters.
+
+5. **Abstract Classes**
+   - Cannot be instantiated.
+   - May contain both abstract and concrete methods.
+   - Subclasses must implement abstract methods.
+
+6. **Interfaces**
+   - Fully abstract by default (all methods abstract).
+   - Implemented using `implements`.
+   - Use when you need multiple inheritance or full abstraction.
+
+7. **Object Comparison**
+   - Override `equals()` and `hashCode()` to compare objects meaningfully.
+
+8. **Anonymous Classes**
+   - Allow method overriding on the fly for a specific instance.
+   - Useful for quick behaviors (e.g., event handling).
+
+9. **Casting**
+   - Upcasting: Subclass → Superclass (safe).
+   - Downcasting: Superclass → Subclass (needs explicit cast).
+
+10. **Collections & Iterators**
+    - `List`, `Set`, `Map` are collection types.
+    - `Iterator` helps traverse forward.
+    - `ListIterator` can traverse forward and backward.
+
+11. **Threads**
+    - Run multiple tasks in parallel.
+    - Use `Thread` class or implement `Runnable`.
+
+12. **Files**
+    - Use `File`, `Scanner`, or ClassLoader to read files.
+    - ClassLoader approach is preferred in Maven-style projects.
+
