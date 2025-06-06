@@ -1,7 +1,11 @@
 package practice;
 
 public class A {
+    private static int number = 1;
+
     public static int getNumber() {
-        return 1;
+        int current = number;
+        number *= 2;
+        return current;
     }
 }
